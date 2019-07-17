@@ -13,6 +13,9 @@ describe('AppComponent', () => {
   it('should create the app', () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.debugElement.componentInstance;
+    const a = new Set('1');
+    a.has('2');
+
     expect(app).toBeTruthy();
   });
 

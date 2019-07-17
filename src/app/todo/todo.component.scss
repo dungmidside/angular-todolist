@@ -2,8 +2,16 @@
     display: flex;
 }
 
+.big-title {
+    font-size: 5em;
+    margin-top: 0.5em;
+    font-weight: 100;
+    color: rgba(175, 47, 47, 0.15);
+}
+
 .content-container {
     margin: 130px;
+    margin-top: 0px;
     border: none;
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 25px 50px 0 rgba(0, 0, 0, 0.1);
     background: white;
@@ -23,7 +31,7 @@
             font-size: 25px;
             line-height: 1.5em;
             min-width: 350px;
-            border-bottom: 1px solid grey;
+            border-bottom: 1px solid #e6e6e6;
             padding: 20px;
             padding-left: 40px;
         }
@@ -39,9 +47,9 @@
 .list {
     flex-direction: column;
     .item {
-        width: 100%;
         margin: 20px;
         align-items: center;
+        justify-content: space-between;
         .title {
             min-width: 200px;
         }
