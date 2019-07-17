@@ -1,5 +1,5 @@
 # Todolist
-
-- [x] Finish my changes
-- [o] Push my commits to GitHub
-- [o] Open a pull request
+- [x] make todo list
+- [ ] Finish my changes
+- [ ] Push my commits to GitHub
+- [ ] Open a pull request
